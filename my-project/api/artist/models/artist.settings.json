@@ -33,6 +33,11 @@
     "band": {
       "via": "artists",
       "model": "band"
+    },
+    "musical_instruments": {
+      "collection": "musical-instrument",
+      "via": "artists",
+      "dominant": true
     }
   }
 }

@@ -13,6 +13,10 @@
   "attributes": {
     "TypeOfMusical": {
       "type": "string"
+    },
+    "artists": {
+      "via": "musical_instruments",
+      "collection": "artist"
     }
   }
 }

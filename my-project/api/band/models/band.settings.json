@@ -31,8 +31,8 @@
       "pluginOptions": {}
     },
     "artists": {
-      "collection": "artist",
-      "via": "band"
+      "via": "band",
+      "collection": "artist"
     }
   }
 }
