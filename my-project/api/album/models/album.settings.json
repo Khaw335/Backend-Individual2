@@ -33,6 +33,10 @@
     "band": {
       "via": "albums",
       "model": "band"
+    },
+    "songs": {
+      "collection": "song",
+      "via": "album"
     }
   }
 }

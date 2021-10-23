@@ -16,6 +16,14 @@
     },
     "Lyrics": {
       "type": "text"
+    },
+    "band": {
+      "via": "songs",
+      "model": "band"
+    },
+    "album": {
+      "via": "songs",
+      "model": "album"
     }
   }
 }

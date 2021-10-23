@@ -35,7 +35,11 @@
       "collection": "artist"
     },
     "albums": {
-      "collection": "album",
+      "via": "band",
+      "collection": "album"
+    },
+    "songs": {
+      "collection": "song",
       "via": "band"
     }
   }
