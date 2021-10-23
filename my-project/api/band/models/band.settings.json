@@ -33,6 +33,10 @@
     "artists": {
       "via": "band",
       "collection": "artist"
+    },
+    "albums": {
+      "collection": "album",
+      "via": "band"
     }
   }
 }
