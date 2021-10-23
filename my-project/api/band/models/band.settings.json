@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bands",
   "info": {
-    "name": "Band"
+    "name": "Band",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "artists": {
+      "collection": "artist",
+      "via": "band"
     }
   }
 }
