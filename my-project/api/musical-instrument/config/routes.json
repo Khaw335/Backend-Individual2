@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/musical-instruments",
+      "handler": "musical-instrument.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musical-instruments/count",
+      "handler": "musical-instrument.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musical-instruments/:id",
+      "handler": "musical-instrument.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/musical-instruments",
+      "handler": "musical-instrument.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/musical-instruments/:id",
+      "handler": "musical-instrument.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/musical-instruments/:id",
+      "handler": "musical-instrument.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

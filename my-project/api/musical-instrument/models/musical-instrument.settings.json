@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "musical_instruments",
+  "info": {
+    "name": "MusicalInstrument"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TypeOfMusical": {
+      "type": "string"
+    }
+  }
+}
